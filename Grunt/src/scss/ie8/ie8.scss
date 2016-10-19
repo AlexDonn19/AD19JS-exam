@@ -1,0 +1,25 @@
+header {background-color: #e8e8e8;}
+header:after {display: none;}
+.head_content {position: relative;}
+.head_content, .top-line, .slogan, .slogan_add, .red_back {z-index: 15; zoom: 1;}
+
+.slide_content span { display: block; }
+
+.control, .control_line { z-index: 15; }
+.control_left, .control_right {
+    background: url('../img/sprite-control.png');
+    overflow: hidden; z-index: 15; }
+.control_left {background-position: left;}
+.control_right {background-position: right;}
+
+a img { border: 0; outline: 0; background: transparent; }
+
+.svg { background-color: none;z-index: 7; }
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}

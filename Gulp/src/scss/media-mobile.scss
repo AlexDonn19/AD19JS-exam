@@ -1,0 +1,22 @@
+@import 'variables';
+@import 'mixins';
+
+/*for mobile*/
+
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+
+/*  ---  header  ---   */
+    header {width: 100%;background: url('../img/tablet-header.jpg') center;}
+
+  /*  ---  main  ---   */
+
+    main {width: 320px;}
+
+/*  ---  footer  ---   */
+
+    .footer_block {width: 320px;}
+
+}
+
+
